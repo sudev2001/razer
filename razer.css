@@ -1,0 +1,208 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: #4c3838;
+}
+/*HEADER*/
+
+#myHead{
+    height: 60px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 2px #45d70bb8 solid;
+    position: fixed;
+    width: 100%;
+}
+#myHead img{
+    height: 35px;
+}
+#myHead a{
+    text-decoration: none;
+    color:#999999;
+    font-family: RazerF5, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+}
+#myHead a:hover{
+    color: #ffff;
+    transition: 0.5s;   
+}
+.invert{
+    filter: invert(50%);
+}
+.invert:hover{
+    filter: invert(0%);
+}
+/*Body STARTED*/
+#body1{
+    padding: 80px 0px 10px 0px;
+    background-color: #555555;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#body1 p{
+color: #eeeeee;
+font-family: Roboto,sans-serif;
+font-weight: 400;
+font-size:14px ;
+line-height: 20px;
+}
+#body1 a{
+    color: #eeeeee;
+    text-decoration: none;
+}
+#body1 a:hover{
+text-decoration: underline;
+transition: .10s;
+}
+.button1{
+    border: none;
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 450px;
+    cursor: pointer;
+}
+.mainHead{
+    color: #ffffff;
+    font-size: 3.2rem;
+    font-family:"RazerF5",Arial,Helvetica,sans-serif;
+    line-height: 1;
+    font-weight: 500;
+}
+.subHead{
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 1.6rem;
+    font-family:"RazerF5",Arial,Helvetica,sans-serif;
+    line-height: 1;
+    font-weight: 500;
+}
+.link{
+    margin-top: 10px;
+}
+.link a{
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+.arrow{
+    margin-left: 2px;
+    width: 10px;
+}
+.link a:hover{
+    text-decoration: underline;
+    transition: .1s;
+}
+.exclusive{
+    background-color: orange;
+    margin: 10px;
+    padding-left:7px ;
+    padding-right: 7px;
+    text-decoration: none;
+}
+.exclusive p1{
+    color:black;
+    font-size: 10px;
+    text-align: start;
+}
+.exclusive p2{
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+#myGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+}
+.gridHead{
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-family:"RazerF5",Arial,Helvetica,sans-serif;
+    line-height: 1;
+    font-weight: 500;
+}
+.subGrid{
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 1.313rem;
+    font-family:"RazerF5",Arial,Helvetica,sans-serif;
+    line-height: 1;
+    font-weight: 500;
+}
+.button2{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:10px ;
+    width: 100%;
+    height: 570px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 342px;
+    cursor: pointer;
+}
+#footer{
+    margin-top: 10px;
+    background-color: black;
+    padding: 13px 130px 13px 130px;
+}
+#myGrid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+#myGrid2 li{
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+#myGrid2 ul{
+    list-style: none;
+}
+#myGrid2 a{
+    font-family: sans-serif;
+    font-size: smaller;
+    text-decoration: none;
+    color: #4c3838;
+}
+#myGrid2 a:hover{
+text-decoration: underline;
+color: #ffffff;
+}
+#media{
+    margin:10px 60px;
+    float: right;
+}
+#end{
+    display: flex;
+    flex-direction: row;
+}
+#footer a{
+    margin: 0px 5px 0px 5px;
+    font-family: sans-serif;
+    font-size: smaller;
+    text-decoration: none;
+    color: #4c3838;
+}
+#anker a:hover{
+    text-decoration: underline;
+    color: #ffffff;
+}
+#left{
+    display: flex;
+    flex-direction: row;
+    margin-left: 450px;
+}
